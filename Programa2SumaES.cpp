@@ -17,10 +17,21 @@ int main()
   printf("Bievenido Usuario %s:  ",nombre);
   
   int sumaR=num1+num2;
+  /*
+  printf("\nNumero 1 es: %i  ",num1);
+  printf("\nNumero 2 es: %i  ",num2);
+  printf("\nSuma es: %i ",sumaR);
+  */
+  printf("\nNumero 1 es: %i \nNumero 2 es: %i \nSuma es: %i ",num1,num2,sumaR);
   
-  printf("Numero 1 es %i : ",num1);
-  printf("Numero 2 es %i : ",num2);
-  printf("Suma es %i : ",sumaR);
-   
-
+  //Determinar si la suma es mayor a 6 indicar aprobado en caso contrario reprobado
+  if(sumaR>=6)
+  {//incia if para condicion verdadera
+  	printf("\nAprobado");
+  }//termina if para condicion verdadera
+  else
+  {//para condicion falsa
+  	printf("\nREprobado");
+  }//para condicion falsa
+  
 }//termina funcion princpal
